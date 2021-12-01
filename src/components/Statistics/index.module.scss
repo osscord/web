@@ -15,7 +15,10 @@
 
 .statisticName {
 	font-size: 20px;
-	text-transform: lowercase;
+
+	&::first-letter {
+		text-transform: lowercase;
+	}
 }
 
 .statisticValue {
