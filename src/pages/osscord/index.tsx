@@ -29,9 +29,9 @@ export default function () {
 			</Head>
 
 			<Brand />
-			<SectionCaret sectionName="Features" />
+			<SectionCaret name="Features" />
 			<Features />
-			<SectionCaret sectionName="Statistics" />
+			<SectionCaret name="Statistics" />
 			<Statistics />
 
 			<Footer />
