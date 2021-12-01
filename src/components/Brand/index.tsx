@@ -11,7 +11,11 @@ export default function () {
 				<div id={styles.nameContainer}>
 					<div id={styles.name}>osscord</div>
 					<div id={styles.description}>
-						This is probably the only osu! bot that supports slash commands (not).
+						An easy-to-use feature-rich{" "}
+						<a href="https://osu.ppy.sh" target="_blank">
+							osu!
+						</a>{" "}
+						bot for Discord
 					</div>
 					<a
 						id={styles.inviteButton}

@@ -13,7 +13,7 @@ export default function () {
 					<SlashIcon />
 					<div className={styles.featureName}>Slash Commands</div>
 					<div className={styles.featureDescription}>
-						Useless slash commands that don't work 90% of the time.
+						Fully utilizes slash commands, so that running commands is easy and fast.
 					</div>
 				</div>
 
@@ -21,7 +21,8 @@ export default function () {
 					<ConfigIcon />
 					<div className={styles.featureName}>Highly Configurable</div>
 					<div className={styles.featureDescription}>
-						This bot is configurable like any other average bot. Boo-hoo.
+						Highly configurable, allowing users to customize each command to their
+						liking.
 					</div>
 				</div>
 
@@ -29,14 +30,23 @@ export default function () {
 					<ScanIcon />
 					<div className={styles.featureName}>Advanced Scanner</div>
 					<div className={styles.featureDescription}>
-						It can scan shit. Holy fuck, I'm sold.
+						Can scan channels for profile and beatmap links, providing info accordingly.
+						It can also scan osu! screenshots, providing information on detected
+						beatmaps.
 					</div>
 				</div>
 
 				<div className={styles.feature}>
 					<OrdrIcon />
 					<div className={styles.featureName}>Replay Renderer</div>
-					<div className={styles.featureDescription}>It can render replays... okay?</div>
+					<div className={styles.featureDescription}>
+						Simply provide a replay file and options, and osscord will render the replay
+						utilizing{" "}
+						<a href="https://ordr.issou.best" target="_blank">
+							o!rdr
+						</a>
+						.
+					</div>
 				</div>
 			</div>
 		</div>

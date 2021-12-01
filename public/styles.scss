@@ -6,7 +6,13 @@ body {
 }
 
 a {
+	color: #bbb;
+	text-decoration: none;
 	transition: 0.2s;
+
+	&:hover {
+		color: #ccc;
+	}
 }
 
 ::selection {
