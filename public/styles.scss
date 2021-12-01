@@ -1,0 +1,20 @@
+body {
+	background-image: url(/background.png/);
+	color: #fff;
+	font-family: Comfortaa, "Segoe UI", Arial, Helvetica, sans-serif;
+	margin: 0;
+}
+
+a {
+	transition: 0.2s;
+}
+
+::selection {
+	background-color: #fff;
+	color: #000;
+}
+
+::-moz-selection {
+	background-color: #fff;
+	color: #000;
+}

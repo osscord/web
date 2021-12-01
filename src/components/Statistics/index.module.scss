@@ -1,0 +1,29 @@
+#statistics {
+	align-items: center;
+	background-color: #ff66ab;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	min-height: 40vh;
+}
+
+.statistic {
+	font-weight: bold;
+	margin: 30px;
+	text-align: center;
+}
+
+.statisticName {
+	font-size: 20px;
+	text-transform: lowercase;
+}
+
+.statisticValue {
+	font-size: 50px;
+}
+
+@media screen and (min-width: 1024px) {
+	#statistics {
+		flex-direction: row;
+	}
+}

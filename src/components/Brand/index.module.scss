@@ -1,0 +1,51 @@
+#brand {
+	align-items: center;
+	display: flex;
+	min-height: 100vh;
+	text-align: center;
+}
+
+#brandContainer {
+	display: flex;
+	flex-direction: column;
+}
+
+#logo {
+	margin: auto;
+	width: 40%;
+}
+
+#name {
+	font-size: 60px;
+	font-weight: bold;
+}
+
+#description {
+	font-size: 20px;
+	margin: 30px;
+}
+
+#inviteButton {
+	background-color: #ff66ab;
+	border-radius: 25px;
+	color: #fff;
+	display: inline-block;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 10px;
+	padding: 20px;
+	text-decoration: none;
+	text-transform: lowercase;
+
+	&:hover {
+		background-color: darken(#ff66ab, 5%);
+		color: #fff;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	#brandContainer {
+		flex-direction: row;
+		margin: auto 20%;
+	}
+}

@@ -1,0 +1,21 @@
+.sectionCaret {
+	cursor: pointer;
+	display: none;
+	left: 48%;
+	margin-top: -60px;
+	position: absolute;
+	text-align: center;
+	text-transform: lowercase;
+
+	svg {
+		display: block;
+		margin: 5px auto;
+		width: 30px;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.sectionCaret {
+		display: block;
+	}
+}
