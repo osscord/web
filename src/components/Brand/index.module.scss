@@ -1,18 +1,15 @@
 #brand {
 	align-items: center;
 	display: flex;
+	justify-content: center;
 	min-height: 100vh;
 	text-align: center;
 }
 
 #brandContainer {
+	align-items: center;
 	display: flex;
 	flex-direction: column;
-}
-
-#logo {
-	margin: auto;
-	width: 40%;
 }
 
 #name {

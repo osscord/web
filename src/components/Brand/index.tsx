@@ -6,7 +6,7 @@ export default function () {
 	return (
 		<div id={styles.brand}>
 			<div id={styles.brandContainer}>
-				<OsscordIcon id={styles.logo} />
+				<OsscordIcon width="40%" />
 
 				<div id={styles.nameContainer}>
 					<div id={styles.name}>osscord</div>
