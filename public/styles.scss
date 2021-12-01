@@ -6,12 +6,12 @@ body {
 }
 
 a {
-	color: #bbb;
+	color: #ff66ab;
 	text-decoration: none;
 	transition: 0.2s;
 
 	&:hover {
-		color: #ccc;
+		color: darken(#ff66ab, 5%);
 	}
 }
 
