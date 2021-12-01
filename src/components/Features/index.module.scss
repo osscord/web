@@ -15,7 +15,6 @@
 .feature {
 	margin: 30px;
 	text-align: center;
-	width: 100%;
 
 	svg {
 		margin: 15px;
@@ -39,5 +38,9 @@
 	#featuresContainer {
 		flex-direction: row;
 		margin: auto 20%;
+	}
+
+	.feature {
+		width: 100%;
 	}
 }
