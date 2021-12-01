@@ -5,10 +5,7 @@
 	margin-top: -60px;
 	position: absolute;
 	text-align: center;
-
-	&::first-letter {
-		text-transform: lowercase;
-	}
+	text-transform: lowercase;
 
 	svg {
 		display: block;

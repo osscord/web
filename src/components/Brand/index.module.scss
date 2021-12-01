@@ -20,10 +20,7 @@
 #description {
 	font-size: 20px;
 	margin: 30px;
-
-	&::first-letter {
-		text-transform: lowercase;
-	}
+	text-transform: lowercase;
 }
 
 #inviteButton {
@@ -35,10 +32,7 @@
 	font-weight: bold;
 	margin: 10px;
 	padding: 20px;
-
-	&::first-letter {
-		text-transform: lowercase;
-	}
+	text-transform: lowercase;
 
 	&:hover {
 		background-color: darken(#ff66ab, 5%);
