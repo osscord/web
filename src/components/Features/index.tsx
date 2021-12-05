@@ -11,9 +11,9 @@ export default function () {
 			<div id={styles.featuresContainer}>
 				<div className={styles.feature}>
 					<SlashIcon />
-					<div className={styles.featureName}>Fast and Easy</div>
+					<div className={styles.featureName}>Slash Commands</div>
 					<div className={styles.featureDescription}>
-						Fully utilizes slash commands, so that running commands is easy and fast.
+						Fully utilizes slash commands, so that running commands is fast and easy.
 					</div>
 				</div>
 
