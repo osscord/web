@@ -11,7 +11,7 @@ export default function () {
 			<div id={styles.featuresContainer}>
 				<div className={styles.feature}>
 					<SlashIcon />
-					<div className={styles.featureName}>Slash Commands</div>
+					<div className={styles.featureName}>Fast and Easy</div>
 					<div className={styles.featureDescription}>
 						Fully utilizes slash commands, so that running commands is easy and fast.
 					</div>
@@ -21,8 +21,8 @@ export default function () {
 					<ConfigIcon />
 					<div className={styles.featureName}>Highly Configurable</div>
 					<div className={styles.featureDescription}>
-						Highly configurable, allowing users to customize each command to their
-						liking.
+						Configure each command to your own liking, making it even easier to run
+						them.
 					</div>
 				</div>
 
@@ -30,9 +30,8 @@ export default function () {
 					<ScanIcon />
 					<div className={styles.featureName}>Advanced Scanner</div>
 					<div className={styles.featureDescription}>
-						Can scan channels for profile and beatmap links, providing info accordingly.
-						It can also scan osu! screenshots, providing information on detected
-						beatmaps.
+						Scans channels for beatmap & profile links and osu! screenshots, and
+						provides information accordingly.
 					</div>
 				</div>
 

@@ -11,7 +11,7 @@ export default function () {
 				<div id={styles.nameContainer}>
 					<div id={styles.name}>osscord</div>
 					<div id={styles.description}>
-						An easy-to-use feature-rich{" "}
+						An easy-to-use, feature-rich{" "}
 						<a href="https://osu.ppy.sh" target="_blank">
 							osu!
 						</a>{" "}
