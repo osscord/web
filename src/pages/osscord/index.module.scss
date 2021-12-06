@@ -1,0 +1,14 @@
+#background {
+	animation: bg 60s linear infinite;
+	background-image: url(/background.png);
+	height: 100%;
+	position: absolute;
+	width: 100%;
+	z-index: -1;
+}
+
+@keyframes bg {
+	to {
+		background-position: 50%;
+	}
+}

@@ -1,4 +1,5 @@
 import Head from "next/head";
+import styles from "./index.module.scss";
 
 import SectionCaret from "components/SectionCaret";
 import Brand from "components/Brand";
@@ -27,6 +28,8 @@ export default function () {
 					rel="stylesheet"
 				/>
 			</Head>
+
+			<div id={styles.background} />
 
 			<Brand />
 			<SectionCaret name="Features" />

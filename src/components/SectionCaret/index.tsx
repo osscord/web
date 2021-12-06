@@ -7,9 +7,9 @@ export default function ({ name }: { name: string }) {
 		<div
 			className={styles.sectionCaret}
 			onClick={() => {
-				window.document.getElementsByTagName("html")[0].style.scrollBehavior = "smooth";
+				document.getElementsByTagName("html")[0].style.scrollBehavior = "smooth";
 				window.scroll({ top: window.scrollY + window.innerHeight });
-				window.document.getElementsByTagName("html")[0].style.scrollBehavior = "";
+				document.getElementsByTagName("html")[0].style.scrollBehavior = "";
 			}}
 		>
 			{name}
