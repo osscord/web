@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { useEffect } from "react";
 import styles from "./index.module.scss";
 
 import SectionCaret from "components/SectionCaret";
@@ -18,7 +19,10 @@ export default function () {
 				/>
 				<meta name="keywords" content="Discord bot, osu!" />
 				<meta name="theme-color" content="#ff66ab" />
-				<meta name="description" content="osscord's website" />
+				<meta
+					name="description"
+					content="an easy-to-use, feature-rich osu! bot for discord"
+				/>
 				<meta name="og:image" content="https://osscord.vercel.app/osscord.png" />
 				<link rel="icon" type="image/png" href="/osscord.png" />
 				<link rel="preconnect" href="https://fonts.googleapis.com" />
