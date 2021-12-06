@@ -2,7 +2,7 @@
 	animation: bg 60s linear infinite;
 	background-image: url(/background.png);
 	height: 100%;
-	position: absolute;
+	position: fixed;
 	width: 100%;
 	z-index: -1;
 }
