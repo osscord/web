@@ -1,5 +1,7 @@
+@import "../../../public/variables";
+
 #features {
-	background-color: #292929;
+	background-color: $backgroundColor;
 	display: flex;
 	justify-content: center;
 	min-height: 100vh;

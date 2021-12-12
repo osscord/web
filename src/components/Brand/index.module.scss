@@ -1,3 +1,5 @@
+@import "../../../public/variables";
+
 #brand {
 	align-items: center;
 	display: flex;
@@ -24,7 +26,7 @@
 }
 
 #inviteButton {
-	background-color: #ff66ab;
+	background-color: $accentColor;
 	border-radius: 25px;
 	color: #fff;
 	display: inline-block;
@@ -35,7 +37,7 @@
 	text-transform: lowercase;
 
 	&:hover {
-		background-color: darken(#ff66ab, 5%);
+		background-color: darken($accentColor, 5%);
 		color: #fff;
 	}
 }

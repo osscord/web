@@ -1,6 +1,8 @@
+@import "../../../public/variables";
+
 #statistics {
 	align-items: center;
-	background-color: #ff66ab;
+	background-color: $accentColor;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;

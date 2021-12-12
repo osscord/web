@@ -1,17 +1,19 @@
+@import "variables";
+
 body {
-	background-color: #292929;
+	background-color: $backgroundColor;
 	color: #fff;
 	font-family: Comfortaa, "Segoe UI", Arial, Helvetica, sans-serif;
 	margin: 0;
 }
 
 a {
-	color: #ff66ab;
+	color: $accentColor;
 	text-decoration: none;
 	transition: 0.2s;
 
 	&:hover {
-		color: darken(#ff66ab, 5%);
+		color: darken($accentColor, 5%);
 	}
 }
 
