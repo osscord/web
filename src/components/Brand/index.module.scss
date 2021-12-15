@@ -36,6 +36,14 @@
 	padding: 20px;
 	text-transform: lowercase;
 
+	&#supportServerButton {
+		background-color: #111;
+
+		&:hover {
+			background-color: #000;
+		}
+	}
+
 	&:hover {
 		background-color: darken($accentColor, 5%);
 		color: #fff;

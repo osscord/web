@@ -26,6 +26,7 @@ export default function () {
 					</a>
 					<a
 						className={styles.button}
+						id={styles.supportServerButton}
 						href="https://discord.gg/6Krt8jfEuX"
 						target="_blank"
 					>
