@@ -18,11 +18,18 @@ export default function () {
 						bot for Discord
 					</div>
 					<a
-						id={styles.inviteButton}
+						className={styles.button}
 						href="https://discord.com/oauth2/authorize?client_id=868697725464633414&scope=bot+applications.commands"
 						target="_blank"
 					>
 						Add to server
+					</a>
+					<a
+						className={styles.button}
+						href="https://discord.gg/6Krt8jfEuX"
+						target="_blank"
+					>
+						Support Server
 					</a>
 				</div>
 			</div>
