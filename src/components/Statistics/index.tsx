@@ -21,17 +21,17 @@ export default function () {
 	return (
 		<div id={styles.statistics}>
 			<div className={styles.statistic}>
-				<div className={styles.statisticValue}>{servers}</div>
+				<div className={styles.statisticValue}>{servers.toLocaleString()}</div>
 				<div className={styles.statisticName}>Servers</div>
 			</div>
 
 			<div className={styles.statistic}>
-				<div className={styles.statisticValue}>{users}</div>
+				<div className={styles.statisticValue}>{users.toLocaleString()}</div>
 				<div className={styles.statisticName}>Users</div>
 			</div>
 
 			<div className={styles.statistic}>
-				<div className={styles.statisticValue}>{commands}</div>
+				<div className={styles.statisticValue}>{commands.toLocaleString()}</div>
 				<div className={styles.statisticName}>Commands</div>
 			</div>
 		</div>
