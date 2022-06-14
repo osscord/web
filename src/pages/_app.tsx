@@ -6,7 +6,7 @@ import "../../public/styles.scss";
 export default function ({ Component, pageProps }: AppProps) {
 	return (
 		<SimpleBar style={{ maxHeight: "100vh" }}>
-			<Component {...pageProps} />;
+			<Component {...pageProps} />
 		</SimpleBar>
 	);
 }
