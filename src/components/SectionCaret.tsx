@@ -1,11 +1,9 @@
-import styles from "./index.module.scss";
-
 import CaretIcon from "icons/Caret";
 
 export default function ({ name }: { name: string }) {
 	return (
 		<div
-			className={styles.sectionCaret}
+			className="hidden lg:block absolute left-[48%] text-center mt-[-65px] lowercase cursor-pointer"
 			onClick={() => {
 				document.getElementsByTagName("html")[0].style.scrollBehavior = "smooth";
 				window.scroll({ top: window.scrollY + window.innerHeight });
@@ -13,7 +11,7 @@ export default function ({ name }: { name: string }) {
 			}}
 		>
 			{name}
-			<CaretIcon />
+			<CaretIcon className="w-8 block mx-auto my-3 animate-bounce" />
 		</div>
 	);
 }

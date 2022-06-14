@@ -1,19 +1,21 @@
-@import "variables";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 body {
-	background-color: $backgroundColor;
+	background-color: #292929;
 	color: #fff;
 	font-family: Comfortaa, "Segoe UI", Arial, Helvetica, sans-serif;
 	margin: 0;
 }
 
 a {
-	color: $accentColor;
+	color: #ff66ab;
 	text-decoration: none;
 	transition: 0.2s;
 
 	&:hover {
-		color: darken($accentColor, 5%);
+		color: #d1588f;
 	}
 }
 
