@@ -5,9 +5,12 @@ export default function ({ name }: { name: string }) {
 		<div
 			className="hidden lg:block absolute left-[48%] text-center mt-[-65px] lowercase cursor-pointer"
 			onClick={() => {
-				document.getElementsByTagName("html")[0].style.scrollBehavior = "smooth";
-				window.scroll({ top: window.scrollY + window.innerHeight });
-				document.getElementsByTagName("html")[0].style.scrollBehavior = "";
+				const element = document.getElementsByClassName("simplebar-content-wrapper")[0] as HTMLElement | undefined;
+				if (!element) return;
+
+				element.style.scrollBehavior = "smooth";
+				element.scrollTop += window.innerHeight;
+				element.style.scrollBehavior = "";
 			}}
 		>
 			{name}
