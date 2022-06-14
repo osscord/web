@@ -27,7 +27,7 @@ export default function () {
 	);
 
 	return (
-		<div className="min-h-[40vh] flex flex-col lg:flex-row items-center justify-center bg-[#ff66ab]">
+		<div className="min-h-[40vh] bg-[#ff66ab] flex flex-col lg:flex-row items-center justify-center">
 			<Statistic name="Servers" value={servers.toLocaleString()} />
 			<Statistic name="Users" value={users.toLocaleString()} />
 			<Statistic name="Commands" value={commands.toLocaleString()} />
