@@ -1,10 +1,10 @@
-import Head from "next/head";
-import styles from "./index.module.scss";
 import Brand from "components/Brand";
 import Features from "components/Features";
 import Footer from "components/Footer";
 import SectionCaret from "components/SectionCaret";
 import Statistics from "components/Statistics";
+import Head from "next/head";
+import styles from "./index.module.scss";
 
 export default function () {
 	return (
