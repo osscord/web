@@ -38,7 +38,7 @@ export default function () {
     <FeatureSection
       display={
         <div className="relative mx-4">
-          <div className="bg-[#343434] border-l-4 border-primary rounded p-4 pl-3 gap-6 flex flex-row text-sm mr-8 mb-8 shadow-lg">
+          <div className="bg-[#343434] border-l-4 border-primary rounded p-4 pl-3 gap-6 flex flex-row text-sm shadow-lg">
             <div className="flex flex-col gap-2">
               <div className="flex flex-row gap-2 items-center">
                 <Image src="/modes/osu.png" width={24} height={24} />
