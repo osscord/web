@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"description": "osscord website",
 	"dependencies": {
-		"next": "^12.0.6",
+		"next": "^12.2.3",
 		"react": "^17.0.2",
 		"react-dom": "17.0.2",
 		"sass": "^1.43.4",
@@ -13,7 +13,6 @@
 	"devDependencies": {
 		"@types/node": "^16.11.10",
 		"@types/react": "^17.0.36",
-		"@types/react-twemoji": "^0.4.0",
 		"autoprefixer": "^10.4.7",
 		"postcss": "^8.4.14",
 		"tailwindcss": "^3.1.2",
