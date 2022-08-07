@@ -16,7 +16,7 @@ export default function () {
             </a>{" "}
             bot for Discord
           </div>
-          <Button href="https://discord.com/oauth2/authorize?client_id=868697725464633414&scope=bot+applications.commands">
+          <Button href="https://discord.com/api/oauth2/authorize?client_id=868697725464633414&permissions=262144&scope=bot%20applications.commands">
             Add to server
           </Button>
           <Button
