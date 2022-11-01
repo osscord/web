@@ -3,10 +3,10 @@ import Link from "next/link";
 const links = [
   { label: "terms", link: "/terms" },
   { label: "privacy", link: "/privacy" },
-  { label: "status", link: "/status" },
+  { label: "status", link: "https://stats.uptimerobot.com/n745WSXxl0" },
 ];
 
-export default function () {
+export default function Footer() {
   return (
     <div className="bg-[#292929] flex flex-col pt-2.5 pb-[5px] text-[10px] text-center">
       <div className="font-bold mb-[5px]">
