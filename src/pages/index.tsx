@@ -7,7 +7,7 @@ import * as Features from "../components/Features";
 import styles from "./index.module.scss";
 import MoreFeatures from "components/MoreFeatures";
 
-export default function () {
+export default function Index() {
   return (
     <>
       <Head>
@@ -44,7 +44,7 @@ export default function () {
         ></script>
       </Head>
 
-      <div id={styles.background} />
+      <div className="h-screen" id={styles.background} />
 
       <Brand />
       <SectionCaret name="Features" />
@@ -54,8 +54,6 @@ export default function () {
       <MoreFeatures />
       <SectionCaret name="invite" />
       <Another />
-
-      <Footer />
     </>
   );
 }
