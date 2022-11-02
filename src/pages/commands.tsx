@@ -24,8 +24,6 @@ export default function Commands() {
   if (error) return <div>failed to load</div>;
   if (!data) return <div>loading...</div>;
 
-  console.log(data.sort((a: any, b: any) => a.name.localeCompare(b.name)));
-
   return (
     <div>
       <div className="left-0 top-0 h-1/4" id={styles.background} />
