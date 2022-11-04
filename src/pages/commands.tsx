@@ -6,6 +6,12 @@ import Spinner from "components/Spinner";
 
 const fetcher = (url: string) => fetch(url).then((r) => r.json());
 
+interface Option {
+  description: string;
+  name: string;
+  type: number;
+}
+
 interface Command {
   application_id: string;
   default_permission: boolean;
@@ -15,12 +21,51 @@ interface Command {
   name: string;
   type: number;
   version: string;
-  options: [{ description: string; name: string; type: number }];
+  options: [Option];
+}
+
+function exampleValue(value: Option["name"]) {
+  let example: string;
+  switch (value) {
+    case "user":
+      example = "masked";
+      break;
+    case "mode":
+      example = "osu!";
+      break;
+    case "query":
+      example = "black rover";
+      break;
+    case "pp":
+      example = "120-180";
+      break;
+    case "dt":
+      example = "true";
+      break;
+    case "hd":
+      example = "false";
+      break;
+    case "country":
+      example = "Australia";
+      break;
+    case "fails":
+      example = "false";
+      break;
+    case "link":
+      example = "https://example.com/replay.osr";
+      break;
+    default:
+      example = "";
+      break;
+  }
+  return example;
 }
 
 export default function Commands() {
   const { data, error } = useSWR("https://commands.osscord.xyz/", fetcher);
   const [active, setActive] = useState(-1);
+
+  console.log(data);
 
   return (
     <div>
@@ -50,7 +95,7 @@ export default function Commands() {
                       </div>
                     ))}
                   </div>
-                  <div className="flex items-center">
+                  <div className="flex items-center ml-3">
                     <Caret
                       className={`w-4 ${active == index ? "rotate-180" : ""}`}
                     />
@@ -65,7 +110,6 @@ export default function Commands() {
                       ) : (
                         ""
                       )}
-
                       <div className="flex flex-col text-sm">
                         {command?.options?.map((option) => (
                           <div className="text-white/80">
@@ -76,6 +120,28 @@ export default function Commands() {
                           </div>
                         )) ?? ""}
                       </div>
+                      {command.options ? (
+                        <h2 className="text-md mt-4 mb-1">Example:</h2>
+                      ) : (
+                        ""
+                      )}
+                      {command.options ? (
+                        <div className="flex flex-row text-sm gap-2 flex-wrap">
+                          /{command.name}
+                          {command.options.map((option) => {
+                            const value = exampleValue(option.name);
+                            return value ? (
+                              <div className="text-white/80">
+                                {option.name}: {value}
+                              </div>
+                            ) : (
+                              ""
+                            );
+                          })}
+                        </div>
+                      ) : (
+                        ""
+                      )}
                     </div>
                   </div>
                 ) : (
