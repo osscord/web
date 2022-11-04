@@ -65,8 +65,6 @@ export default function Commands() {
   const { data, error } = useSWR("https://commands.osscord.xyz/", fetcher);
   const [active, setActive] = useState(-1);
 
-  console.log(data);
-
   return (
     <div>
       <div
