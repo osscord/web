@@ -14,7 +14,7 @@ export default function NavBar() {
       </a>
       <div className="[&>a]:text-white flex gap-6">
         {links.map((link: any) => (
-          <a href={link.url} className="hover:underline">
+          <a key={link.name} href={link.url} className="hover:underline">
             {link.name}
           </a>
         ))}
