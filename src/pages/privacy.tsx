@@ -1,9 +1,16 @@
+import styles from "./index.module.scss";
+
 export default function Privacy() {
   return (
-    <div className="px-32 py-24">
-      <h1 className="text-[32px] font-bold mb-3">Privacy Policy</h1>
+    <div>
+      <div
+        className="left-0 top-0 h-52 flex flex-col items-center justify-end pb-6 text-4xl"
+        id={styles.background}
+      >
+        Privacy Policy
+      </div>
 
-      <div className="flex flex-col gap-3">
+      <div className="flex flex-col gap-3 mt-52 p-5 md:py-10 md:px-32">
         <p>
           This is our "Privacy Policy" which sets out the policy which governs
           our use of information you provide in connection with the osscord bot.
